@@ -1,23 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  font-size: 92.5%;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  scroll-behavior: smooth;
 }
 
 html,
 body {
   width: 100vw;
-  height: 100%;
+  height: 300vh;
   background-color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  max-width: 80rem;
+  overflow: hidden;
 }
 
 footer {
@@ -35,6 +37,84 @@ footer {
   margin-top: auto;
   font-size: 1.25rem;
   font-weight: normal;
-  font-family: sans-serif;
   color: #00000060;
+}
+
+header {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  z-index: 999;
+}
+
+nav {
+  position: fixed;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #00000099;
+  padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+  border-radius: 40px;
+  overflow: hidden;
+  backdrop-filter: blur(5px);
+  border: 1px solid #000;
+  max-width: 60rem;
+  margin: 0.5rem auto;
+}
+
+.logo {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 400;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.logo:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.content-menu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.content-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.875rem;
+  transition: 0.3s all ease;
+}
+
+.content-menu a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.account-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  font-weight: 600;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+
+.account-option:hover {
+  background-color: #000;
+  color: #fff;
 }
