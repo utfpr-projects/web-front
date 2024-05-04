@@ -10,6 +10,31 @@
 html,
 body {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 80rem;
+}
+
+footer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: fit-content;
+  bottom: 0px;
+  padding: 0.75rem;
+  border-top: 1px solid #00000025;
+  margin: 0px auto;
+  max-width: 80rem;
+  margin-top: auto;
+  font-size: 1.25rem;
+  font-weight: normal;
+  font-family: sans-serif;
+  color: #00000060;
 }
