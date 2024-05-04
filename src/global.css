@@ -12,7 +12,7 @@
 html,
 body {
   width: 100vw;
-  height: 300vh;
+  height: 100vh;
   background-color: #fff;
   display: flex;
   flex-direction: column;
