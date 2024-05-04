@@ -14,11 +14,11 @@
         <a href="#first-section" class="logo">SustentAI</a>
 
         <ul class="content-menu">
-          <li><a href="#calculadora">CALCULADORA</a></li>
+          <li><a href="#comparision-section">COMPARACOES</a></li>
           <li><a href="#about-section">SOBRE</a></li>
         </ul>
 
-        <button class="account-option">SAIR</button>
+        <a href="autenticacao/entrar" class="account-option">SAIR</a>
       </nav>
     </header>
 
@@ -41,28 +41,66 @@
           </div>
         </div>
 
-        <a href="#second-section">
+        <a href="#comparision-section">
           <img class="scroll-alert" src="public\chevron-bottom.svg" alt="asd" />
         </a>
       </section>
 
-      <section>
-        <a href="autenticacao/entrar">Logar</a>
-        <a href="autenticacao/registrar">Registrar</a>
-      </section>
+      <section id="comparision-section" class="container-comparision">
+        <form action="" class="content-form">
+          <h2>Comparacoes</h2>
+          <div class="content-comparision">
+            <div class="text-input">
+              <label for="monthly-cost">
+                Quanto o gasto mensal com combustivel?
+              </label>
+              <input id="monthly-cost" type="number" />
+              <label for="monthly-cost">
+                Informe os gastos mensais relacionados ao seu principal veiculo
+                de mobilizacao, caso tenha.
+              </label>
+            </div>
 
-      <section id="second-section" class="container-comparision">
-        <a href="#tertiary-section">Ver mais</a>
+            <div class="text-input">
+              <label for="fuel-type">
+                Qual tipo de combustivel utilizado no abastecimento?
+              </label>
+              <input id="fuel-type" type="text" />
+              <label for="fuel-type">
+                Informe qual tipo de combustivel utilizado em sua utilizacao
+                cotidiana mensal
+              </label>
+            </div>
+
+            <div class="text-input">
+              <label for="uf-adress">Estado (UF) onde se reside</label>
+              <select name="uf" id="uf-adress">
+                <option value="SP" selected>Sao Paulo</option>
+                <option value="PR">Parana</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="RS">Rio Grande do Sul</option>
+              </select>
+              <label for="uf-adress">
+                Selecione seu estado, no momento, atendemos apenas os que
+                contemplam na lista
+              </label>
+            </div>
+          </div>
+
+          <button type="button">Comparar</button>
+        </form>
+
+        <img class="image-decoration" src="public\comparision.jpg" alt="asd" />
       </section>
 
       <section id="about-section" class="container-about">
-        <div class="sla-2">
+        <!-- <div class="sla-2">
           adasjib djiasbhjasbhd bashjidaish viasdghv djags vdghasvdgas
           vghadvsighsd vugas vgyudvasgyvdasgyvdgavsduga svdg asvdgavsgdv
           asghdvasghvd asgvdaghsvdghas vd ghavsjdgs vasghaaghsasghvgha vghd
           asghasd vgh adsghasd a sgasd
           <a class="about-option" href="sobre-nos">Saiba mais</a>
-        </div>
+        </div> -->
       </section>
     </main>
 

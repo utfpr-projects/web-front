@@ -105,16 +105,23 @@ nav {
   align-items: center;
   justify-content: center;
   padding: 0.5rem 1rem;
-  border: none;
-  outline: none;
+  text-decoration: none;
   border-radius: 40px;
   font-weight: 600;
   font-size: 0.875rem;
   cursor: pointer;
-  transition: 0.3s all ease;
+  transition: 0.3s all ease-in-out;
+  color: #000;
+  background-color: #fff;
 }
 
 .account-option:hover {
   background-color: #000;
   color: #fff;
+}
+
+@media (max-width: 500px) {
+  .content-menu {
+    display: none;
+  }
 }
