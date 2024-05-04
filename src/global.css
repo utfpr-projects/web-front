@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-size: 92.5%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+}
