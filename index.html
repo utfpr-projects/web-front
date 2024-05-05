@@ -14,7 +14,7 @@
         <a href="#first-section" class="logo">SustentAI</a>
 
         <ul class="content-menu">
-          <li><a href="#comparision-section">COMPARACOES</a></li>
+          <li><a href="#comparision-section">COMPARAÇÕES</a></li>
           <li><a href="#about-section">SOBRE</a></li>
         </ul>
 
@@ -25,11 +25,11 @@
     <main>
       <section id="first-section" class="container-banner">
         <span class="content-banner">
-          <img src="public\home-banner.webp" alt="test" />
+          <img src="public/home-banner.webp" alt="wind farm" />
         </span>
 
         <div class="content-description">
-          <img src="public\ods-7.png" alt="asd" />
+          <img src="public/ods-7.png" alt="ods 7 image representation" />
 
           <div>
             <h1>Nosso objetivo e trazer mais sustentabilidade ao planeta!</h1>
@@ -42,41 +42,45 @@
         </div>
 
         <a href="#comparision-section">
-          <img class="scroll-alert" src="public\chevron-bottom.svg" alt="asd" />
+          <img
+            class="scroll-alert"
+            src="public/chevron-bottom.svg"
+            alt="arrow down icon"
+          />
         </a>
       </section>
 
       <section id="comparision-section" class="container-comparision">
-        <form action="" class="content-form">
-          <h2>Comparacoes</h2>
+        <form action="/" class="content-form">
+          <h2>Comparações</h2>
           <div class="content-comparision">
             <div class="text-input">
               <label for="monthly-cost">
-                Quanto o gasto mensal com combustivel?
+                Quanto o gasto mensal com combustível?
               </label>
-              <input name="monthly-cost" type="number" />
+              <input name="monthly-cost" id="monthly-cost" type="number" />
               <label for="monthly-cost">
-                Informe os gastos mensais relacionados ao seu principal veiculo
-                de mobilizacao, caso tenha.
+                Informe os gastos mensais relacionados ao seu principal veículo
+                de mobilização, caso tenha.
               </label>
             </div>
 
             <div class="text-input">
               <label for="fuel-type">
-                Qual tipo de combustivel utilizado no abastecimento?
+                Qual tipo de combustível utilizado no abastecimento?
               </label>
-              <input name="fuel-type" type="text" />
+              <input name="fuel-type" id="fuel-type" type="text" />
               <label for="fuel-type">
-                Informe qual tipo de combustivel utilizado em sua utilizacao
+                Informe qual tipo de combustivel utilizado em sua utilização
                 cotidiana mensal
               </label>
             </div>
 
             <div class="text-input">
               <label for="uf-adress">Estado (UF) onde se reside</label>
-              <select name="uf-adress">
-                <option value="SP" selected>Sao Paulo</option>
-                <option value="PR">Parana</option>
+              <select name="uf-adress" id="uf-adress">
+                <option value="SP" selected>São Paulo</option>
+                <option value="PR">Paraná</option>
                 <option value="SC">Santa Catarina</option>
                 <option value="RS">Rio Grande do Sul</option>
               </select>
@@ -90,7 +94,11 @@
           <button type="button">Comparar</button>
         </form>
 
-        <img class="image-decoration" src="public\comparision.jpg" alt="asd" />
+        <img
+          class="image-decoration"
+          src="public/comparision.jpg"
+          alt="plant near the table"
+        />
       </section>
 
       <section id="about-section" class="container-about">
@@ -104,20 +112,23 @@
             construindo um futuro mais verde para o planeta.
           </p>
           <p>Segue abaixo links relacionados ao que prezamos:</p>
-          <li>
-            <a href="https://www.ipea.gov.br/ods/ods7.html" target="_blank">
-              Governo
-            </a>
-          </li>
-          <li>
-            <a href="https://brasil.un.org/pt-br/sdgs/7" target="_blank">
-              Organizacao
-            </a>
-          </li>
+          <ul>
+            <li>
+              <a href="https://www.ipea.gov.br/ods/ods7.html" target="_blank">
+                Governo
+              </a>
+            </li>
+            <li>
+              <a href="https://brasil.un.org/pt-br/sdgs/7" target="_blank">
+                Organização
+              </a>
+            </li>
+          </ul>
 
           <a class="about-option" href="#about-section">Saiba mais</a>
         </div>
       </section>
+
       <footer>SustentAI</footer>
     </main>
   </body>

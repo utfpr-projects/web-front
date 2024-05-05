@@ -129,6 +129,13 @@ main section:last-of-type {
   gap: 0.5rem;
 }
 
+.content-about ul {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
 .content-about > p:first-of-type {
   font-size: 20px;
   font-weight: 300;
@@ -140,7 +147,7 @@ main section:last-of-type {
   font-weight: 600;
 }
 
-.content-about > li > a {
+.content-about > ul > li > a {
   font-size: 16px;
   color: #fcc100;
   list-style-type: "-";
