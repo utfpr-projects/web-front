@@ -5,131 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/global.css" />
     <link rel="stylesheet" href="styles.css" />
-
-    <title>SustentAI | Energia Sustentavel</title>
+    <title>SustentAI | Entrar com sua conta</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="#first-section" class="logo">SustentAI</a>
+    <div class="container">
+      <div class="form_box">
+        <h2 class="title">Entre com sua conta</h2>
 
-        <ul class="content-menu">
-          <li><a href="#comparision-section">COMPARAÇÕES</a></li>
-          <li><a href="#about-section">SOBRE</a></li>
-        </ul>
+        <form action="inicial" method="get">
+          <label for="email">Email</label>
+          <input type="email" name="email" />
+          <label for="senha">Senha</label>
+          <input type="password" name="senha" />
 
-        <a href="autenticacao/entrar" class="account-option">SAIR</a>
-      </nav>
-    </header>
-
-    <main>
-      <section id="first-section" class="container-banner">
-        <span class="content-banner">
-          <img src="public/home-banner.webp" alt="wind farm" />
-        </span>
-
-        <div class="content-description">
-          <img src="public/ods-7.png" alt="ods 7 image representation" />
-
-          <div>
-            <h1>Nosso objetivo e trazer mais sustentabilidade ao planeta!</h1>
-
-            <p>
-              Pioneiros da transição energética com um investimento de 120
-              bilhões de euros há 20 anos
-            </p>
-          </div>
-        </div>
-
-        <a href="#comparision-section">
-          <img
-            class="scroll-alert"
-            src="public/chevron-bottom.svg"
-            alt="arrow down icon"
-          />
-        </a>
-      </section>
-
-      <section id="comparision-section" class="container-comparision">
-        <form action="/" class="content-form">
-          <h2>Comparações</h2>
-          <div class="content-comparision">
-            <div class="text-input">
-              <label for="monthly-cost">
-                Quanto o gasto mensal com combustível?
-              </label>
-              <input name="monthly-cost" id="monthly-cost" type="number" />
-              <label for="monthly-cost">
-                Informe os gastos mensais relacionados ao seu principal veículo
-                de mobilização, caso tenha.
-              </label>
-            </div>
-
-            <div class="text-input">
-              <label for="fuel-type">
-                Qual tipo de combustível utilizado no abastecimento?
-              </label>
-              <input name="fuel-type" id="fuel-type" type="text" />
-              <label for="fuel-type">
-                Informe qual tipo de combustivel utilizado em sua utilização
-                cotidiana mensal
-              </label>
-            </div>
-
-            <div class="text-input">
-              <label for="uf-adress">Estado (UF) onde se reside</label>
-              <select name="uf-adress" id="uf-adress">
-                <option value="SP" selected>São Paulo</option>
-                <option value="PR">Paraná</option>
-                <option value="SC">Santa Catarina</option>
-                <option value="RS">Rio Grande do Sul</option>
-              </select>
-              <label for="uf-adress">
-                Selecione seu estado, no momento, atendemos apenas os que
-                contemplam na lista
-              </label>
-            </div>
-          </div>
-
-          <button type="button">Comparar</button>
+          <button type="submit">Entrar</button>
         </form>
+        <form action="registrar" method="get">
+          <button type="submit">Registrar</button>
+        </form>
+      </div>
+    </div>
 
-        <img
-          class="image-decoration"
-          src="public/comparision.jpg"
-          alt="plant near the table"
-        />
-      </section>
-
-      <section id="about-section" class="container-about">
-        <div class="content-about">
-          <p>
-            A <strong>SustentAI</strong> é uma empresa dedicada a garantir o
-            acesso à energia limpa, confiável e acessível para todos, em linha
-            com o ODS 7 da Agenda 2030 da ONU. Através de soluções inovadoras e
-            sustentáveis, e serviços que promovem a eficiência energética e a
-            utilização de fontes renováveis, combatendo as mudanças climáticas e
-            construindo um futuro mais verde para o planeta.
-          </p>
-          <p>Segue abaixo links relacionados ao que prezamos:</p>
-          <ul>
-            <li>
-              <a href="https://www.ipea.gov.br/ods/ods7.html" target="_blank">
-                Governo
-              </a>
-            </li>
-            <li>
-              <a href="https://brasil.un.org/pt-br/sdgs/7" target="_blank">
-                Organização
-              </a>
-            </li>
-          </ul>
-
-          <a class="about-option" href="#about-section">Saiba mais</a>
-        </div>
-      </section>
-
-      <footer>SustentAI</footer>
-    </main>
+    <footer>SustentAI</footer>
   </body>
 </html>
