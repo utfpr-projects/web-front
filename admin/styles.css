@@ -1,0 +1,175 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.form_box {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 8px;
+  width: 500px;
+  box-shadow: 0 0 15px 10px #00000010;
+  padding: 32px;
+}
+
+.form_box .title {
+  padding: 24px 32px;
+  font-size: 24px;
+  align-self: center;
+}
+
+.form_box label {
+  font-size: 16px;
+  color: #000;
+  align-self: flex-start;
+}
+
+.form_box form {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form_box input,
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+button {
+  font-size: 16px;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #2b1f36;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+  margin: 5rem 0rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.content-users {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 0 100px;
+  align-items: end;
+}
+
+.content-users h3 {
+  text-align: center;
+  margin: 0px auto;
+  margin-bottom: 2rem;
+}
+
+.content-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+table {
+  margin: 0px auto;
+  width: 100%;
+  padding: 1rem;
+}
+
+table thead {
+  margin-bottom: 10rem;
+}
+
+table tbody td button {
+  background-color: red;
+  padding: 0.25rem 0.5rem;
+  width: fit-content;
+}
+
+table thead td {
+  margin-bottom: 30px;
+}
+
+table tbody td {
+  margin-bottom: 12px;
+}
+
+.delete-users-button {
+  background-color: red;
+  color: #fff;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  width: fit-content;
+  transition: all 0.2s ease-in-out;
+}
+
+.delete-users-button:hover {
+  background-color: red;
+  color: #fff;
+  filter: brightness(0.8);
+}
+
+.content-input {
+  display: flex;
+  flex-direction: row;
+  max-height: 50px;
+  align-items: center;
+  width: 50%;
+}
+
+.content-input button {
+  height: 100%;
+  border-radius: 0px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding: 0px 0.5rem;
+  font-size: 0.75rem;
+  width: fit-content;
+}
+
+.content-input input {
+  height: 100%;
+  border-radius: 0px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 0.75rem 1rem;
+  width: 100%;
+}
+
+.content-table {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: end;
+  padding: 0.5rem 1rem;
+}
